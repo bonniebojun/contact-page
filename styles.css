@@ -1,0 +1,10 @@
+body {
+    background: rgb(243, 222, 225);
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    padding-top: 5%;
+
+}

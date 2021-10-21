@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="StyleSheet" href="styles.css">
+</head>
+
+<body>
+    <section class="contact-container">
+        <form action="results.html" method="GET" enctype="multipart/form-data'>
+        <div>
+            <label for=" fname">First Name</label>
+            <input type="text" name="fname" id="firstname" placeholder="Your name...">
+    </div>
+    <div>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Your last name...">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email goes here...">
+    </div>
+    <br>
+    <div>How did you hear about me?</div>
+    <div>
+        <label for="classmate">Classmate</label>
+        <input type="checkbox" name="classmate" id="classmate">
+    </div>
+    <div>
+        <label for="resumesubmission">Resume Submission</label>
+        <input type="checkbox" name="resumesubmission" id="resumesubmission">
+    </div>
+    <div>
+        <label for="LinkedIn">LinkedIn</label>
+        <input type="checkbox" name="LinkedIn" id="LinkedIn">
+    </div>
+    <div>
+        <label for="CodingAcademyRec">Coding Academy Rec</label>
+        <input type="checkbox" name="CodingAcademyRec" id="CodingAcademyRec">
+    </div>
+    </div>
+    <br>
+    <div>
+        Do you want to be contacted?
+    </div>
+
+    <!-- <div id="wrapper">
+            <label for="yes_no_radio">Do you want to be contacted?</label>
+            <p>
+                <input type="radio" name "yes_no" checked>Yes</input>
+            </p>
+            <p>
+                <input type="radio" name="yes_no">No</input>
+            </p>
+        </div> -->
+
+    <div>
+        <input unchecked="unchecked" name="answer" type="radio" value="yes" /> Yes
+        <input name="answer" type="radio" value="no" /> No
+    </div>
+    <br>
+    <div>
+        <label for="subject">Subject</label><br>
+        <textarea id="subject name=" subject" placeholder="Write something here..." style="height: 100px"></textarea>
+        <input type="submit" value="submit" onclick="showInput();">
+
+    </div>
+</section>
+</body>
+
+</html>
