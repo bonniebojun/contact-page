@@ -1,11 +1,12 @@
 body {
-    background: rgb(243, 222, 225);
+    background: #f0d6d6;
+    padding-top: 5%;
 }
 .contact-container {
     display: flex;
     justify-content: center;
     height: 650px;
-    padding-top: 5%;
+    padding-top: 20%;
 
 }
 
@@ -23,7 +24,7 @@ input[type=text], select, textarea {
   
   
   input[type=submit] {
-    background-color: #042346;
+    background-color: #64010a;
     color: white;
     padding: 12px 20px; 
     border: none;
@@ -33,7 +34,7 @@ input[type=text], select, textarea {
   
   
   input[type=submit]:hover {
-    background-color: #6a94c4;
+    background-color: #ee82bf;
   }
   
   .contact-container {
